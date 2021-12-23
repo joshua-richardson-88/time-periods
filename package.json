@@ -21,8 +21,13 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
+    "postversion": "git push && git push --tags",
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn test && yarn run lint",
+    "preversion": "yarn run lint",
     "test-dev": "npx jest --verbose --watch",
-    "test": "npx jest"
+    "test": "npx jest",
+    "version": "yarn run format && git add -A src"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",

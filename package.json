@@ -1,0 +1,12 @@
+{
+  "name": "time-periods",
+  "version": "1.0.0",
+  "description": "A small package to calculate time periods",
+  "main": "index.js",
+  "repository": "git@github.com:joshua-richardson-88/time-periods.git",
+  "author": "Joshua Richardson <jrichardson@linear-systems.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}

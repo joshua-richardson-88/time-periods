@@ -4,6 +4,9 @@
   "description": "A small package to calculate time periods",
   "main": "index.js",
   "keywords": [],
+  "files": [
+    "lib/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:joshua-richardson-88/time-periods.git"
